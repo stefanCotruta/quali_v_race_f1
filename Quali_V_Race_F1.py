@@ -37,7 +37,7 @@ def plot(df):
     df.plot(x='Round', y='Qualifying_Position', ax=ax, marker='.')
     df.plot(x='Round', y='Finishing_Position', ax=ax, marker='.')
 
-    ax.legend(['Qualifying_Position','Finish Pos'])
+    ax.legend(['Qualifying Pos','Finish Pos'])
 
     plt.xticks(np.arange(1, df['Round'].iloc[-1], step=1))
     plt.yticks(np.arange(1, 21, step=1))
