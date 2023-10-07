@@ -53,7 +53,7 @@ def mean_interpretation(df):
     print("Average finish pos: " + str(f_mean))
     print("--------------------------")
 
-    if  s_mean > f_mean:
+    if  s_mean < f_mean:
         print("Better qualifier")
     elif s_mean == f_mean:
         print("Balanced")
