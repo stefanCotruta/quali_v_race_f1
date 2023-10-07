@@ -39,7 +39,7 @@ def plot(df):
 
     ax.legend(['Qualifying Pos','Finish Pos'])
 
-    plt.xticks(np.arange(1, df['Round'].iloc[-1], step=1))
+    plt.xticks(np.arange(1, df['Round'].iloc[-1] + 1, step=1))
     plt.yticks(np.arange(1, 21, step=1))
 
     plt.show()
